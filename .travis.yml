@@ -28,6 +28,6 @@ before_script:
   - g++ --version
 script:
   - cd ~/
-  - git clone --depth=50 https://github.com/libretro/libretro-super
+  - git clone --depth=50 --branch wiiu-build-test https://github.com/monkeyman79/libretro-super
   - cd libretro-super/travis
   - ./build.sh
